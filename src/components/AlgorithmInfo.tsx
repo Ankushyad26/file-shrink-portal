@@ -86,14 +86,14 @@ const AlgorithmInfo = () => {
       <Tabs defaultValue="huffman" className="space-y-6">
         <TabsList className="grid w-full grid-cols-2 bg-slate-800/50 border border-slate-700">
           {algorithms.map((algo) => (
-            <Tab
+            <TabsTrigger
               key={algo.id}
               value={algo.id}
               className="text-white data-[state=active]:bg-blue-600 flex items-center gap-2"
             >
               <div className="text-blue-400">{algo.icon}</div>
               {algo.name}
-            </Tab>
+            </TabsTrigger>
           ))}
         </TabsList>
 
