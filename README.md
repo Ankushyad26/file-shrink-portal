@@ -1,8 +1,7 @@
 # Welcome to Decompressor project
 
-## Project info
 
-**URL**: https://decompressor.dev/projects/a35f4f47-f75b-4243-8ed4-1dff09587382
+
 
 ## How can I edit this code?
 
